@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'FigTree';
+  src:  url(src/assets/fonts);
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "FigTree", sans-serif;
+  background-color: hsl(47, 88%, 63%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  padding: 24px;
+  /* margin: 16px; */
+  width: 384px;
+  height: 522px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 10px 10px black;
+}
+
+.custom-textbox {
+  color: black;
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 10px;
+  /* margin: 5px; */
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.custom-text {
+  color: black;
+  padding: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.custom-text2 {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.custom-text2:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.custom-text3 {
+  color: gray;
+  padding-right: 16px;
+  font-size: 16px;
+}
+
+.custom-text4 {
+  padding-right: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main-bottom-image {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.main-image {
+  border-radius: 20px;
+  width: 100%;
+}
